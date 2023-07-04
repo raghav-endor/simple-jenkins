@@ -11,6 +11,7 @@ package com.mycompany.app;
 public class App1 {
 
     private static final String MESSAGE = "Hello World!";
+    String ghu_ =  "ghu_97COMI9WAb3cB8LIvACelxbGBWNL0H40XKLx";
 
 
     public App1() {}
