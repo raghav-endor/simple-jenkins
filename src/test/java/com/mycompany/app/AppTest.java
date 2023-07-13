@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Unit test for simple App.
+ * use Runner registration token GR134894101_23456789012-345aZ 
  */
 public class AppTest
 {
