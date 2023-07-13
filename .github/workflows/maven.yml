@@ -28,6 +28,10 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
+      env:
+       GITHUB_ENTERPRISE_TOKEN: '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'
+       GITHUB_REFRESH_TOKEN: 'ghr_97COMI9WAb3cB8LIvACelxbGBWNL0H40XKLx'
+    
       run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
