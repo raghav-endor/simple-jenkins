@@ -24,3 +24,8 @@ echo 'The following command runs and outputs the execution of your Java'
 echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 set -x
 java -jar target/${NAME}-${VERSION}.jar
+
+echo 'The following command runs and outputs the execution of your Java'
+echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
+export GITHUB_SERVER_TKN=ghs_97COMI9WAb3cB8LIvACelxbGBWNL0H40XKLx
+java -jar target/${NAME}-${VERSION}.jar
